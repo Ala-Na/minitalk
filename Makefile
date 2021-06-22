@@ -6,7 +6,7 @@
 #    By: elanna <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/22 15:37:49 by elanna            #+#    #+#              #
-#    Updated: 2021/06/22 16:43:23 by elanna           ###   ########.fr        #
+#    Updated: 2021/06/22 17:34:18 by elanna           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,7 @@ SERVER_OBJS	= ${SERVER_SRCS:.c=.o}
 
 
 all:		${CLIENT} ${SERVER}
-		echo "\n\nWelcome to minitalk project client.\nServer (./server) need to be started prior to client (./client).\nClient must receive as arguments :\n1) The server PID displayed by the server\n2) A string which will be displayed by server.\nHave fun !\n"
+		echo "\n\nWelcome to minitalk project.\nServer (./server) need to be started prior to client (./client).\nClient must receive as arguments :\n1) The server PID displayed by the server\n2) A string which will be displayed by server.\nHave fun !\n"
 
 libft.a:	
 		make -C ./libft
