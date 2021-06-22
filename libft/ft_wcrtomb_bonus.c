@@ -6,12 +6,11 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/27 20:45:14 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/29 00:17:05 by elanna           ###   ########.fr       */
+/*   Updated: 2021/06/22 15:16:53 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_bonus.h"
-#include <wchar.h>
+#include "libft.h"
 
 size_t	ft_wcrtomb(char *s, wchar_t wc, mbstate_t *ps)
 {

@@ -6,11 +6,11 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/27 14:53:06 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/20 12:29:51 by anadege          ###   ########.fr       */
+/*   Updated: 2021/06/22 15:12:10 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 char	*apply_dtwo_pten(unsigned int i)
 {

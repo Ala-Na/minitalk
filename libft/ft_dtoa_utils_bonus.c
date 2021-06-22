@@ -6,11 +6,11 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 17:47:28 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/20 12:36:20 by anadege          ###   ########.fr       */
+/*   Updated: 2021/06/22 15:13:19 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 char	*del_front_zero(char *to_add, int approx_size)
 {

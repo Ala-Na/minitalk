@@ -6,7 +6,7 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 22:25:13 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/20 12:38:03 by anadege          ###   ########.fr       */
+/*   Updated: 2021/06/22 15:13:35 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 ** by addr.
 */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 static int	ft_det_size_hexaddr(size_t a_value)
 {

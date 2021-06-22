@@ -6,7 +6,7 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 22:28:07 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/20 14:59:31 by anadege          ###   ########.fr       */
+/*   Updated: 2021/06/22 15:17:58 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 ** it's ascii decimal representation.
 */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 static int	ft_det_size_uitoa(unsigned int n)
 {

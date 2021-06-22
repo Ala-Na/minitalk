@@ -6,7 +6,7 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 22:23:43 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/20 13:56:38 by anadege          ###   ########.fr       */
+/*   Updated: 2021/06/22 15:14:13 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 ** string as it's decimal representation.
 */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 static int	ft_det_size_llitoa(long long n)
 {

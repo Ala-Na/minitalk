@@ -6,7 +6,7 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 22:29:32 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/13 15:44:28 by elanna           ###   ########.fr       */
+/*   Updated: 2021/06/22 15:14:30 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 ** unsigned long long maximal number.
 */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 unsigned long long	ft_pow(unsigned long long nb, int power)
 {

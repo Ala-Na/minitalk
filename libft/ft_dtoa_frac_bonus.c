@@ -6,11 +6,11 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 17:37:08 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/20 12:20:46 by anadege          ###   ########.fr       */
+/*   Updated: 2021/06/22 15:12:01 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 unsigned long long	convert_mant_to_frac(unsigned long long mant, short exp,
 unsigned int *i)

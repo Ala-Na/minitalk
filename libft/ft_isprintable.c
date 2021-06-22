@@ -1,25 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ishexa_bonus.c                                  :+:      :+:    :+:   */
+/*   ft_isprintable.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/15 15:50:26 by elanna            #+#    #+#             */
-/*   Updated: 2021/06/22 15:13:55 by elanna           ###   ########.fr       */
+/*   Created: 2021/06/22 15:27:53 by elanna            #+#    #+#             */
+/*   Updated: 2021/06/22 17:25:07 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-** Function to know if a char is inside an hexadecimal format (with min or maj).
-*/
-
 #include "libft.h"
 
-int	ft_ishexa(int c)
+/*
+** Function to check if a string contains only printable characters.
+*/
+
+int	ft_isprintable(char *str)
 {
-	if ((c >= '0' && c <= '9') || (c >= 'a' && c <= 'f')
-		|| (c >= 'A' && c <= 'F'))
-		return (c);
-	return (0);
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] < ' ' || str[i] > '~')
+			return (0);
+		i++;
+	}
+	return (16384);
 }

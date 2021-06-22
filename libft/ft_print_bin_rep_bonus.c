@@ -6,7 +6,7 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 22:13:58 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/20 14:13:48 by anadege          ###   ########.fr       */
+/*   Updated: 2021/06/22 15:14:43 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 ** ft_print_bin_rep(sizeof(item), &item);
 */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 void	ft_print_bin_rep(size_t const size, void const *ptr)
 {

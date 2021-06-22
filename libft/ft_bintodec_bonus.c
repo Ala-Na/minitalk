@@ -6,7 +6,7 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 22:12:11 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/13 15:41:19 by elanna           ###   ########.fr       */
+/*   Updated: 2021/06/22 15:10:42 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 ** This function is used in ft_dtoa.
 */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 unsigned long long	ft_bintodec(unsigned long long bin, int start)
 {

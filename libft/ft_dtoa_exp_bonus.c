@@ -6,11 +6,11 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/29 21:54:56 by elanna            #+#    #+#             */
-/*   Updated: 2021/05/20 12:19:41 by anadege          ###   ########.fr       */
+/*   Updated: 2021/06/22 15:11:48 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 char	*add_exp(int exp, char *number, int shortest_rep)
 {

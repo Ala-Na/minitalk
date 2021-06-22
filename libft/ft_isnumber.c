@@ -1,41 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   server.c                                           :+:      :+:    :+:   */
+/*   ft_isnumber.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/21 16:41:06 by elanna            #+#    #+#             */
-/*   Updated: 2021/06/21 23:27:59 by elanna           ###   ########.fr       */
+/*   Created: 2021/06/22 15:27:22 by elanna            #+#    #+#             */
+/*   Updated: 2021/06/22 17:24:59 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <signal.h>
-#include <unistd.h>
-#include <stdio.h>
+#include "libft.h"
 
-static void	handler(int sig, siginfo_t *info, void *ucontext)
+/*
+** Function to check if a string contains only digits
+*/
+
+int	ft_isnumber(char *str)
 {
-	if (sig == SIGUSR1)
+	int	i;
+
+	i = 0;
+	while (str[i])
 	{
-
+		if (str[i] < '0' || str[i] > '9')
+			return (0);
+		i++;
 	}
-	else if (sig == SIGUSR2)
-	{
-
-	}
-}
-
-int	main()
-{
-	struct sigaction	act;
-	pid_t	pid;
-
-	pid = getpid();
-	printf("%i\n", pid);
-	act.sa_sigaction = &handler;
-	act.sa_flags = SA_SIGINFO;
-	while (1)
-		pause();
-	return (0);
+	return (2480);
 }

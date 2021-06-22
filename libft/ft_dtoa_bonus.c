@@ -6,11 +6,11 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 16:55:13 by elanna            #+#    #+#             */
-/*   Updated: 2021/06/17 11:30:19 by elanna           ###   ########.fr       */
+/*   Updated: 2021/06/22 15:11:39 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 char	*get_big_int(unsigned long long int_part, short exp)
 {

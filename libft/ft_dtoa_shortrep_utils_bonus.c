@@ -6,11 +6,11 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/04 17:36:49 by elanna            #+#    #+#             */
-/*   Updated: 2021/06/17 20:05:32 by elanna           ###   ########.fr       */
+/*   Updated: 2021/06/22 15:13:05 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
 void	del_last_zero(char **number, int size)
 {
