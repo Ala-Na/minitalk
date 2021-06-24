@@ -43,14 +43,14 @@ ${SERVER}:	${SERVER_OBJS}
 		${CC} -o ${SERVER} ${SERVER_OBJS}
 
 clean:
-		rm -f ${CLIENT_OBJS}
-		rm -f ${SERVER_OBJS}
+		@rm -f ${CLIENT_OBJS}
+		@rm -f ${SERVER_OBJS}
 
 fclean: 	clean
-		rm -f ${CLIENT}
-		rm -f ${SERVER}
+		@rm -f ${CLIENT}
+		@rm -f ${SERVER}
 
-re:		fclean all
+re:		@fclean all
 
 .PHONY: all clean re 
 

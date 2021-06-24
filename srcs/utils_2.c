@@ -47,4 +47,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return ((int)return_value(res, sign));
 }
-

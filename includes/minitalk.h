@@ -20,12 +20,12 @@
 /*
 ** Utils functions
 */
-int	ft_atoi(const char *nptr);
-int	ft_isprintable(char *str);
-int	ft_isnumber(char *str);
+int		ft_atoi(const char *nptr);
+int		ft_isprintable(char *str);
+int		ft_isnumber(char *str);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *str, int fd);
-void	ft_putnbr_fd(int n, int fd); 
+void	ft_putnbr_fd(int n, int fd);
 
 /*
 ** Functions used by server
