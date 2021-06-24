@@ -6,13 +6,13 @@
 #    By: elanna <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/22 15:37:49 by elanna            #+#    #+#              #
-#    Updated: 2021/06/22 17:34:18 by elanna           ###   ########.fr        #
+#    Updated: 2021/06/24 21:09:00 by elanna           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CLIENT_SRCS	= ./srcs/client.c
+CLIENT_SRCS	= ./srcs/client.c ./srcs/utils_1.c ./srcs/utils_2.c 
 
-SERVER_SRCS	= ./srcs/server.c
+SERVER_SRCS	= ./srcs/server.c ./srcs/utils_1.c
 
 HEADERS_FILE = includes
 
@@ -33,26 +33,22 @@ SERVER_OBJS	= ${SERVER_SRCS:.c=.o}
 
 
 all:		${CLIENT} ${SERVER}
-		echo "\n\nWelcome to minitalk project.\nServer (./server) need to be started prior to client (./client).\nClient must receive as arguments :\n1) The server PID displayed by the server\n2) A string which will be displayed by server.\nHave fun !\n"
+		@echo "\n\nWelcome to minitalk project.\nServer (./server) need to be started prior to client (./client).\nClient must receive as arguments :\n1) The server PID displayed by the server\n2) A string which will be displayed by server.\nHave fun !\n"
 
-libft.a:	
-		make -C ./libft
 
-${CLIENT}:	libft.a ${CLIENT_OBJS}
-		${CC} ${CLIENT_OBJS} ./libft/libft.a -o ${CLIENT}
+${CLIENT}:	${CLIENT_OBJS}
+		${CC} -o ${CLIENT} ${CLIENT_OBJS}
 
-${SERVER}:	libft.a ${SERVER_OBJS}
-		${CC} ${SERVER_OBJS} ./libft/libft.a -o ${SERVER}
+${SERVER}:	${SERVER_OBJS}
+		${CC} -o ${SERVER} ${SERVER_OBJS}
 
 clean:
 		rm -f ${CLIENT_OBJS}
 		rm -f ${SERVER_OBJS}
-		make clean -C ./libft
 
 fclean: 	clean
 		rm -f ${CLIENT}
 		rm -f ${SERVER}
-		make fclean -C ./libft
 
 re:		fclean all
 

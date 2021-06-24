@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*   utils_2.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anadege <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/03/05 17:44:35 by anadege           #+#    #+#             */
-/*   Updated: 2021/05/24 12:32:17 by anadege          ###   ########.fr       */
+/*   Created: 2021/06/24 21:03:48 by elanna            #+#    #+#             */
+/*   Updated: 2021/06/24 21:03:58 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "minitalk.h"
 
 static int	return_value(long int res, long int sign)
 {
@@ -47,3 +47,4 @@ int	ft_atoi(const char *nptr)
 	}
 	return ((int)return_value(res, sign));
 }
+

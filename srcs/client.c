@@ -6,7 +6,7 @@
 /*   By: elanna <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/21 17:05:57 by elanna            #+#    #+#             */
-/*   Updated: 2021/06/22 17:19:35 by elanna           ###   ########.fr       */
+/*   Updated: 2021/06/24 17:55:11 by elanna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,7 @@ int	send_str_as_bits(char *str, pid_t server_pid)
 			break ;
 	}
 	if (error != 1)
-		error = send_char_as_bits (0, server_pid);
+		error = send_char_as_bits(0, server_pid);
 	if (error == 1)
 	{
 		ft_putstr_fd("Error while sending message to server\n", 2);
